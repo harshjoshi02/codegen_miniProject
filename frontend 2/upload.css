@@ -1,0 +1,93 @@
+.uploadWindow{
+    background-color: rgba(38, 42, 45, 0.877);
+    height: auto;
+    min-height: 300px;
+    width: 100%;
+    /* height: 100%; */
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadWindow img{
+    width: 250px;
+    background-repeat: no-repeat;
+    /* background-color: #c1f0b9; */
+    /* border-radius: 50%; */
+    /* clip-path: circle(50%); */
+    transition: all 0.5s ease;
+}
+  
+
+.uploadButtons{
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadClick button{
+    /* margin-top: 15px; */
+    width: 185px;
+    height: 50px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #175d3f, #448672);
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.takePhotos button{
+    margin-right: 2px;
+}
+
+.uploadClick button:hover {
+    background: #ef5176;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  }
+  
+.uploadClick button:active {
+    background: #eb5b7d;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+  }
+
+.uploadFinal{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadFinal button{
+    width: 350px;
+    height: 55px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #175d3f, #448672);
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.uploadFinal button:hover {
+    background: #ef5176;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  }
+  
+.uploadFinal button:active {
+    background: #eb5b7d;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+  }
+

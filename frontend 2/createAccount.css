@@ -1,0 +1,142 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.loginLogo img{
+    width: 260px;
+    border-radius: 100px;
+    margin-bottom: 25px;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 1px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    font-size: 25px;
+}
+
+input{
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.submitButton {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, #175d3f, #448672);
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    /* font-weight: bold; */
+    border: none;
+    box-shadow: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+.submitButton:hover {
+    background: #ef5176;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  }
+  
+.submitButton:active {
+    background: #eb5b7d;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+  }
+
+.forgotPassword{
+    font-size: 15px;
+}
+
+.signUp a{
+    color: #ec008a;
+}
+
+.signUp a:active{
+    color: rgb(38, 1, 64);
+}
+
+
+
+
+
+   /* body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #f4f4f4;
+}
+
+.login-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.logo-wrapper {
+	margin-bottom: 30px;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+input {
+	font-size: 16px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+button {
+	background-color: #ec008c;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+.forgot-password,
+.signup-link {
+	font-size: 14px;
+}
+
+.signup-link a {
+	color: #ec008c;
+} */

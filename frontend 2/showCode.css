@@ -1,0 +1,81 @@
+/* .loader {
+
+    border: 10px solid #eb5b7d; 
+    border-top: 10px solid  #c1f0b9; 
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 1.5s linear infinite;
+    margin: auto;
+    margin-top: 120px;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+h4{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 290px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0b400b;
+} */
+
+/* .textContainer {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.textBox {
+  width: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 250px;
+  border-radius: 15px;
+  background-color: rgb(10, 19, 48);
+  color: aqua;
+} */
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(10, 21, 58);
+}
+
+.textBox {
+  width: 250px;
+  margin: 20px 20px;
+  height: 450px;
+  border-radius: 20px;
+  background-color: rgb(10, 19, 48);
+  color: aqua;
+  padding-top: 10px; /* Adjust the padding value as needed */
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  color: #eb5b7d;
+  width: 215px;
+  margin: 10px auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 12px;
+}
+
+/* .downloadCode {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+} */
+
+footer {
+  margin-top: 0px;
+}
